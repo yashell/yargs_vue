@@ -8,15 +8,15 @@
 
       <button @click="vibrationPattern">PATTERN</button>-->
 
-      <!-- 
+      <!--
       <div>{{vue}}</div>-->
 
       <router-view/>
-      
+
 
     </div>
 
- 
+
    <div class="nav">
        <!--
       <div class="navItem" @click="nav(0)">
@@ -40,13 +40,13 @@
         个人
       </div>
      -->
-      <router-link class="navItem" to="/" ><img src="./assets/images/nav1.png">首页</router-link>
+      <router-link class="navItem" to="/" ><img src="./assets/images/nav1.png">首页11</router-link>
       <router-link class="navItem" to="/map" ><img src="./assets/images/nav2.png">出行</router-link>
       <router-link class="navItem" to="/info"><img src="./assets/images/nav3.png">资讯</router-link>
       <router-link class="navItem" to="/user"><img src="./assets/images/nav4.png">个人</router-link>
 
 
-     </div> 
+     </div>
   </div>
 </template>
 
